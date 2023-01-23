@@ -26,7 +26,10 @@ body {
 
 div h1 {
     background-color: black;
-    color: white;
+    color:white;
+    z-index:-1;
+    margin-top:40px;
+    margin-left:40px;
     text-decoration-style: dotted;
     text-indent: 67px;
     top: 0%;
@@ -34,36 +37,56 @@ div h1 {
 
 div img {
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 57px;
+    top: 40px;
     z-index: 1;
    
     height: 37px;
     width: 63px;
 }
 
-
+.dropdown-menu {
+    position: absolute;
+    top: 76%;
+    left: -305px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 161px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+  
+        border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%)
+}
 
 #jk button {
-        color: white;
+    color: white;
     background-color: black;
     border: groove red;
-    top: -48px;
-    left: 612px;
+        top: -78px;
+    left: 581px;
     margin: 3px;
     letter-spacing: 2px;
     z-index: 2;
     height: 30px;
-    width: 84px;
+    width: 90px;
+
 }
 #kj{
-   margin-left: 1080px;
-   margin-top: -50px;
-   background-color: rgb(255, 223, 14);
-   color: brown;
-   clip-path:ellipse();
- 
-
+       margin-left: 1046px;
+    margin-top: -66px;
+    background-color: rgb(255, 223, 14);
+    color: brown;
+    clip-path: polygon;
 }
 
 
@@ -90,7 +113,7 @@ text-decoration-color: rgb(255, 0, 149);
 .desc{
     font-size: 30px;
     font-family: fantasy;
-    margin-left: 90px;
+    margin-left: 39px;
     color: rgb(107, 25, 0);
   
 }
@@ -160,7 +183,10 @@ word-spacing: 130px;
 z-index: 2;
 }
 
+.container{
+    margin-bottom: -46px;
 
+}
 
  /* 2nd part image add  */
 
@@ -184,7 +210,7 @@ z-index: 2;
  #g3{
     width: 206px;
     height: 210px;
-    top: 490px;
+    top: 485px;
     left: 506px;
     z-index: -1;
 
@@ -202,7 +228,7 @@ z-index: 2;
  #g5{
     width: 211px;
     height: 218px;
-    top: 490px;
+    top: 480px;
     left:1000px;
     z-index: -1;
 
@@ -212,7 +238,7 @@ z-index: 2;
  #fot{
     background-color: black;
     color: white;
-    margin-top: 100px;
+    margin-top: 150px;
    
  }
 
@@ -253,12 +279,56 @@ z-index: 2;
     background: #007bb5;
     color: white;
   }
-  </style>
+  
+  
+               
+/*           <!--           =========     Button for next page   ============== --> */
+  
+  #next{
+  margin: 21px 0px -93px 627px;
+  background-color: #35e529;
+  
+  }
+  
+  #next:hover {
+  margin: 24px 3px -96px 630px;
+  background-color: #0dcb00;
+}
+
+/*           <!--           =========     wave pattern   ============== --> */
+
+ section {
+            width: 100%;
+            min-height: 120px;
+        }
+ 
+.pt{
+            position: relative;
+            z-index:-1;
+            background-color: #3bb78f;
+            background-image: linear-gradient( red , orange, yellow);
+        }
+ 
+        .pt:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            z-index:-1;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            background: url(
+https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
  
 </head>
 
 <body>
 
+<section class="pt">
   <!-- heading part of web site  -->
   <div class="container-fluid">
     <img src="https://us.123rf.com/450wm/fokaspokas/fokaspokas2005/fokaspokas200501112/fokaspokas200501112.jpg?ver=6"
@@ -266,7 +336,7 @@ z-index: 2;
     <h1>FOOD STORE</h1>
 
   </div>
-
+ </section>
 
   <div class="container">
     <div id="jk" class="btn-group">
@@ -289,6 +359,7 @@ z-index: 2;
 
     </div>
   </div>
+ 
   <!-- heading for the line  -->
 
   <div class="desc"> PRODUCTS </div>
@@ -300,7 +371,7 @@ z-index: 2;
         <div id="buy1">
 <!-- 1 image  -->
       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
-        <img src="https://www.stephengalea.com/wp-content/uploads/2018/05/Foodstylist_McDonalds-Shoot-6.jpg" id="oi" alt="3x3 cube">
+        <img src="https://www.pngkit.com/png/detail/358-3587607_4-the-chicken-maharaja-mac-from-mcdonalds-mcdonalds.png" id="oi" alt="3x3 cube">
       
         BUY NOW</button>
     <!-- 2 image  -->
@@ -315,7 +386,7 @@ z-index: 2;
     <!-- 4 image  -->
   
             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
-        <img src="https://thumbs.dreamstime.com/b/fast-food-chiken-nuggets-burgers-french-fries-white-background-top-view-fast-food-chiken-nuggets-burgers-french-fries-108348424.jpg"
+        <img src="https://thumbs.dreamstime.com/b/indian-diwali-sweet-food-kalakand-indian-diwali-sweet-food-kalakand-also-know-as-halwa-mawa-kalakand-creamy-delicacy-made-158992371.jpg"
         id="oi3" alt="hexagonal cube">
               BUY NOW</button>
   
@@ -330,7 +401,7 @@ z-index: 2;
     <div  id="buy2">
       <!-- 1 img  -->
       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
-      <img src="https://st2.depositphotos.com/5653638/11433/i/950/depositphotos_114334202-stock-photo-traditional-south-indian-food-or.jpg"
+      <img src="https://media.istockphoto.com/id/1079747932/photo/pasta-with-meat-tomato-sauce-and-vegetables.jpg?s=612x612&w=0&k=20&c=OHoA10S3Tdm9qojefhk33F5aVQqfNJtGw3elQo9lyzY="
       id="g1" alt="headphone">
         BUY NOW</button>
     
@@ -345,7 +416,7 @@ z-index: 2;
 <!-- 3 img  -->
 
           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
-        <img src="https://us.123rf.com/450wm/aalaimages/aalaimages2104/aalaimages210400743/aalaimages210400743.jpg?ver=6"
+        <img src="https://www.chopsticks.ee/wp-content/uploads/2016/07/50-chopsticks-Part-punases-karris-356x356.jpg"
         id="g3" alt="boat">
             BUY NOW</button>
   <!-- 4th img  -->
@@ -360,6 +431,12 @@ z-index: 2;
         <img src="https://img.freepik.com/premium-photo/ice-cream-scoops-bowl-with-wafer-white-background_488220-3941.jpg?w=2000" 
        id="g5" alt="mac">
                 BUY NOW</button>
+                
+                
+          <!--           =========     Button for next page   ============== -->
+          
+         <a href="#"> <button type="button" class="btn btn-info btn-lg"  id="next" data-toggle="modal" data-target="">NEXT PAGE</button></a>
+                
 
     </div>
 
@@ -424,13 +501,15 @@ z-index: 2;
         <!-- Links -->
         <h5 class="text-uppercase">Links</h5>
 
-        <a href="#" class="fa fa-linkedin"></a>
+        <a href="https://www.linkedin.com/in/pramendra-singh-b7457b179?original_referer=https%3A%2F%2Fwww.youtube.com%2F" 
+        class="fa fa-linkedin"></a>
 
         <a href="#" class="fa fa-yahoo"></a>
 
-<a href="#" class="fa fa-youtube"></a>
+<a href="https://www.youtube.com/@computer__master1267"
+ class="fa fa-youtube"></a>
 
-<a href="#" class="fa fa-instagram"></a>
+<a href="https://www.instagram.com/pramendra__singh/" class="fa fa-instagram"></a>
 
       </div>
       <!-- Grid column -->
