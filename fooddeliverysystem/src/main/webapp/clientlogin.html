@@ -1,16 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-    <link rel="stylesheet" href="./login.css">
-    <title>LOGIN PAGE</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.10">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <title>LOGIN PAGE</title>
+   
+   <!-- login css -->
     <style type="text/css">
     * {
     margin: 0;
@@ -68,11 +70,357 @@ div h2 {
 }
     
     </style>
+  <!--  main page css  -->
+  <style type="text/css">
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div .mainh1 {
+    background-color: black;
+    color:white;
+    z-index:-1;
+    margin-top:40px;
+    margin-left:40px;
+    text-decoration-style: dotted;
+    text-indent: 67px;
+    top: 0%;
+}
+
+div img {
+    position: absolute;
+    left: 57px;
+    top: 40px;
+    z-index: 1;
+   
+    height: 37px;
+    width: 63px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 76%;
+    left: -305px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 161px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+  
+        border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%)
+}
+
+#jk button {
+    color: white;
+    background-color: black;
+    border: groove red;
+        top: -78px;
+    left: 581px;
+    margin: 3px;
+    letter-spacing: 2px;
+    z-index: 2;
+    height: 30px;
+    width: 90px;
+
+}
+#kj{
+       margin-left: 1046px;
+    margin-top: -66px;
+    background-color: rgb(255, 223, 14);
+    color: brown;
+    clip-path: polygon;
+}
+
+
+#jk button:hover {
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    border: 3px  double gold;
+}
+
+#cube {
+text-align: center;
+text-decoration: solid;
+width: 500px;
+margin-left: 20px;
+border: 6px groove gold;
+border-radius: 20px;
+}
+
+#t{
+font-size: 30px;
+text-transform: uppercase;
+text-decoration-color: rgb(255, 0, 149);
+}
+.desc{
+    font-size: 30px;
+    font-family: fantasy;
+    margin-left: 39px;
+    color: rgb(107, 25, 0);
+  
+}
+
+/* image 1st  */
+#oi{
+       width: 251px;
+    height: 184px;
+    top: 199px;
+    left: -18px;
+ 
+}
+/* 2nd image */
+ 
+#oi1{
+    width: 190px;
+    height: 202px;
+    top: 199px;
+    left: 262px;
+    z-index: -1;
+
+}
+
+/* 3rd image */
+ 
+#oi2{
+    width: 206px;
+    height: 210px;
+    top: 196px;
+    left: 506px;
+    z-index: -1;
+
+}
+
+/* 4th image */
+ 
+#oi3{
+    width: 211px;
+    height: 218px;
+    top: 184px;
+    left: 761px;
+    z-index: -1;
+
+}
+
+
+/* 5th image */
+ 
+#oi4{
+    width: 211px;
+    height: 218px;
+    top: 184px;
+    left:1000px;
+    z-index: -1;
+
+}
+
+#buy1{
+    margin-top: 250px;
+word-spacing: 130px;
+
+}
+
+#buy2{
+    margin-top: 250px;
+word-spacing: 130px;
+z-index: 2;
+}
+
+.container{
+    margin-bottom: -46px;
+
+}
+
+ /* 2nd part image add  */
+
+ #g1{
+    width: 193px;
+    height: 189px;
+    top: 491px;
+    left: 10px;
+ }
+
+ #g2{
+    width: 190px;
+    height: 202px;
+    top: 490px;
+    left: 262px;
+    z-index: -1;
+
+ }
+
+
+ #g3{
+    width: 206px;
+    height: 210px;
+    top: 485px;
+    left: 506px;
+    z-index: -1;
+
+ }
+
+ #g4{
+    width: 193px;
+    height: 172px;
+    top: 507px;
+    left: 761px;
+    z-index: -1;
+
+ }
+
+ #g5{
+    width: 211px;
+    height: 218px;
+    top: 480px;
+    left:1000px;
+    z-index: -1;
+
+ }
+
+ /* fotter css  */
+ #fot{
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+   
+ }
+
+ /* social media link  */
+ .fa{
+    width: 40px;
+    height: 19px;
+ }
+ 
+ .fa:hover {
+    opacity: 0.7;
+    width: 40px;
+    height: 22px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  .fa-instagram {
+    background: #ff0177;
+    color: white;
+  } 
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+               
+/*           <!--           =========     Button for next page   ============== --> */
+  
+  #next{
+  margin: 21px 0px -93px 627px;
+  background-color: #35e529;
+  
+  }
+  
+  #next:hover {
+  margin: 24px 3px -96px 630px;
+  background-color: #0dcb00;
+}
+
+/*           <!--           =========     wave pattern   ============== --> */
+
+ section {
+            width: 100%;
+            min-height: 120px;
+        }
+ 
+.pt{
+            position: relative;
+            z-index:-1;
+            background-color: #3bb78f;
+            background-image: linear-gradient( red , orange, yellow);
+        }
+ 
+        .pt:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            z-index:-1;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            background: url(
+https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+ 
 </head>
+
 <body>
 
-<!-- heading part of web site  -->
+<section class="pt">
+  <!-- heading part of web site  -->
+  <div class="container-fluid">
+    <img src="https://us.123rf.com/450wm/fokaspokas/fokaspokas2005/fokaspokas200501112/fokaspokas200501112.jpg?ver=6"
+     width="100" height="140" alt="">
+    <h1 class="mainh1">FOOD STORE</h1>
 
+  </div>
+ </section>
+
+  <div class="container">
+    <div id="jk" class="btn-group">
+      <button type="submit" class="btn-group btn-group-horizontal">HOME</button>
+   <button type="submit" class="btn-group btn-group-horizontal">ABOUT</button>
+      
+      <button type="submit" class="btn-group btn-group-horizontal dropdown-toggle" data-toggle="dropdown">CONTACT
+        <span class="caret"></span></button>
+      <ul class="dropdown-menu" id="kj">
+        <li>   <a href="#"> +91 899966688</a>  </li>
+        <li><a href="#">+022 68886888</a>  </li>
+        <li> <a href="#">custumer support</a> </li> &nbsp; &nbsp; 
+      </ul>
+      
+         <a href="index2.html"> <button type="submit" class="btn-group btn-group-horizontal">LOGIN</button></a>
+       <a href="index.html"> <button type="submit" class="btn-group btn-group-horizontal">ADMIN</button></a>
+      <a href="./signup.html"><button type="submit" class="btn-group btn-group-horizontal">STAFF</button></a>
+      
+      
+
+    </div>
+  </div>
+ 
+
+ <!--  ===============  @@@@@@@@@@@ login page content @@@@@@@@@@  ==================== -->
 
 
 <div class="container"  >
@@ -93,6 +441,76 @@ div h2 {
             <a href="#" ><small >*Forgot Password</small></a>
         </form>
     </div>
+
+
+   
+<!-- footer for web site  -->
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left" id="fot"> 
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">FOOD STORE</h5>
+        <p>Snacks always taste better when they’re in a bowl at a party. <br>
+        Nothing brings people together like snacks. <br>
+        
+        Life is too short for celery sticks as snacks. <br>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <a href="https://www.linkedin.com/in/pramendra-singh-b7457b179?original_referer=https%3A%2F%2Fwww.youtube.com%2F" 
+        class="fa fa-linkedin"></a>
+
+        <a href="#" class="fa fa-yahoo"></a>
+
+<a href="https://www.youtube.com/@computer__master1267"
+ class="fa fa-youtube"></a>
+
+<a href="https://www.instagram.com/pramendra__singh/" class="fa fa-instagram"></a>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+       
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#"> Foodstore.COM</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
 </body>
 </html>

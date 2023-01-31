@@ -13,8 +13,19 @@
       #im1, #im2 ,im3  {
         vertical-align: middle;
         
-   
       }
+      
+      
+      div  #im1 , #im2 , #im3 {
+        position: absolute;
+    left: 771px;
+    top: -534px;
+    z-index: 1;
+    height: 321px;
+    width: 63px;
+      }
+      
+      
       .slideshow-container {
         max-width: 400px;
         height:50px;
@@ -29,37 +40,49 @@
         top: 50%;
         width: auto;
         padding: 16px;
-        margin-top: -22px;
-        color: black;
+        margin-top:-435px;
+         left: 1124px;
+        color:white;
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
+      
+      
+      
       /* Position the "next button" to the right */
       .next {
-        right: 0;
+        left:770px;
         border-radius: 3px 0 0 3px;
       }
+      
+      
       /* On hover, add a black background color with a little bit see-through */
       .prev:hover,
       .next:hover {
         background-color: rgba(0, 0, 0, 0.8);
       }
+      
+      
+      
       /* Caption text */
-      .text {
-        color: black;
-        font-size: 15px;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-      }
+     .text {
+    color: black;
+    font-size: 26px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 596px;
+    left: 770px;
+    width: 100%;
+    text-align: center;
+}
+      
       /* Number text (1/3 etc) */
       .numbertext {
-        color: #ffffff;
+        color:black;
         font-size: 12px;
         padding: 8px 12px;
         position: absolute;
@@ -68,10 +91,10 @@
       /* The dots/bullets/indicators */
       
       .dc{
-      margin: 10x 10x 10x 10x; 
+     margin-left:653px ; margin-top:-281px;
       }
       
-      .dot {
+      div .dot {
         cursor: pointer;
         height: 15px;
         width: 15px;
@@ -79,12 +102,16 @@
         background-color: #999999;
         border-radius: 50%;
         display: inline-block;
-        transition: background-color 0.6s ease;
+        transition: background-color 0.5s ease;
       }
+      
+      
       .active,
       .dot:hover {
         background-color: #111111;
       }
+      
+      
       /* Fading animation */
       .fade {
         -webkit-animation-name: fade;
@@ -92,6 +119,9 @@
         animation-name: fade;
         animation-duration: 1.5s;
       }
+      
+      
+      
       @-webkit-keyframes fade {
         from {
           opacity: .4
